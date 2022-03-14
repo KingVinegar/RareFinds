@@ -13,8 +13,8 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
+  - Blocking
+  - Actor
   - 
   - 
   - 
@@ -40,4 +40,16 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Floor
+    uniqueID: 2329224625
+    locked: 0
+  - name: Actor
+    uniqueID: 381971597
+    locked: 0
+  - name: Objects
+    uniqueID: 3136658447
+    locked: 0
+  - name: Collision
+    uniqueID: 781967247
     locked: 0
