@@ -7,7 +7,7 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     private BoxCollider2D boxCollider;
-    private Vector3 moveDelta;
+    public Vector3 moveDelta;
     private RaycastHit2D hit;
 
     // Start is called before the first frame update
