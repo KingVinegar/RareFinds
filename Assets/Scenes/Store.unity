@@ -374,6 +374,164 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4798869464927367259, guid: e2cacb5ca6ed7ab4b938946c5c41f2bf, type: 3}
   m_PrefabInstance: {fileID: 4798869464634864130}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &469125265
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1619059541}
+    m_Modifications:
+    - target: {fileID: 19767342235812139, guid: 8eca2df50e58681458ef8a3f8724793d, type: 3}
+      propertyPath: m_Radius
+      value: 2.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 19767342235812139, guid: 8eca2df50e58681458ef8a3f8724793d, type: 3}
+      propertyPath: m_Offset.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1001100542677086588, guid: 8eca2df50e58681458ef8a3f8724793d, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1001100542677086588, guid: 8eca2df50e58681458ef8a3f8724793d, type: 3}
+      propertyPath: conversant
+      value: 
+      objectReference: {fileID: 1409953776}
+    - target: {fileID: 1001100542677086588, guid: 8eca2df50e58681458ef8a3f8724793d, type: 3}
+      propertyPath: conversation
+      value: Pet Barks
+      objectReference: {fileID: 0}
+    - target: {fileID: 2251064720803037034, guid: 8eca2df50e58681458ef8a3f8724793d, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2251064720803037034, guid: 8eca2df50e58681458ef8a3f8724793d, type: 3}
+      propertyPath: maxSeconds
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2251064720803037034, guid: 8eca2df50e58681458ef8a3f8724793d, type: 3}
+      propertyPath: minSeconds
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2251064720803037034, guid: 8eca2df50e58681458ef8a3f8724793d, type: 3}
+      propertyPath: conversation
+      value: New Conversation 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2251064720803037034, guid: 8eca2df50e58681458ef8a3f8724793d, type: 3}
+      propertyPath: allowDuringConversations
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2537283840721632305, guid: 8eca2df50e58681458ef8a3f8724793d, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 3229679a867ab134491c14cc9db679b8, type: 3}
+    - target: {fileID: 2537283840721632306, guid: 8eca2df50e58681458ef8a3f8724793d, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2537283840721632306, guid: 8eca2df50e58681458ef8a3f8724793d, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 2537283840721632306, guid: 8eca2df50e58681458ef8a3f8724793d, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 2537283840721632306, guid: 8eca2df50e58681458ef8a3f8724793d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.049
+      objectReference: {fileID: 0}
+    - target: {fileID: 2537283840721632306, guid: 8eca2df50e58681458ef8a3f8724793d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.354
+      objectReference: {fileID: 0}
+    - target: {fileID: 2537283840721632306, guid: 8eca2df50e58681458ef8a3f8724793d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2537283840721632306, guid: 8eca2df50e58681458ef8a3f8724793d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2537283840721632306, guid: 8eca2df50e58681458ef8a3f8724793d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2537283840721632306, guid: 8eca2df50e58681458ef8a3f8724793d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2537283840721632306, guid: 8eca2df50e58681458ef8a3f8724793d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2537283840721632306, guid: 8eca2df50e58681458ef8a3f8724793d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2537283840721632306, guid: 8eca2df50e58681458ef8a3f8724793d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2537283840721632306, guid: 8eca2df50e58681458ef8a3f8724793d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2537283840721632307, guid: 8eca2df50e58681458ef8a3f8724793d, type: 3}
+      propertyPath: m_Name
+      value: BasePet
+      objectReference: {fileID: 0}
+    - target: {fileID: 2537283840721632307, guid: 8eca2df50e58681458ef8a3f8724793d, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3436429082889836050, guid: 8eca2df50e58681458ef8a3f8724793d, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3436429082889836050, guid: 8eca2df50e58681458ef8a3f8724793d, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.16
+      objectReference: {fileID: 0}
+    - target: {fileID: 6142897739023842832, guid: 8eca2df50e58681458ef8a3f8724793d, type: 3}
+      propertyPath: questName
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6142897739023842832, guid: 8eca2df50e58681458ef8a3f8724793d, type: 3}
+      propertyPath: questState
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6142897739023842832, guid: 8eca2df50e58681458ef8a3f8724793d, type: 3}
+      propertyPath: conversation
+      value: Pet Soothed
+      objectReference: {fileID: 0}
+    - target: {fileID: 6142897739023842832, guid: 8eca2df50e58681458ef8a3f8724793d, type: 3}
+      propertyPath: condition.questConditions.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6142897739023842832, guid: 8eca2df50e58681458ef8a3f8724793d, type: 3}
+      propertyPath: condition.questConditions.Array.data[0].questName
+      value: Soothe Pet
+      objectReference: {fileID: 0}
+    - target: {fileID: 6142897739023842832, guid: 8eca2df50e58681458ef8a3f8724793d, type: 3}
+      propertyPath: condition.questConditions.Array.data[0].questState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7616159495474407945, guid: 8eca2df50e58681458ef8a3f8724793d, type: 3}
+      propertyPath: actor
+      value: BasePet
+      objectReference: {fileID: 0}
+    - target: {fileID: 7616159495474407945, guid: 8eca2df50e58681458ef8a3f8724793d, type: 3}
+      propertyPath: barkUISettings.barkUI
+      value: 
+      objectReference: {fileID: 1417717850875894941, guid: faef14ce798c5374fa83a0b1a6ec438e, type: 3}
+    - target: {fileID: 7616159495474407945, guid: 8eca2df50e58681458ef8a3f8724793d, type: 3}
+      propertyPath: barkUISettings.barkUIOffset.x
+      value: 0.125
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 2251064720803037034, guid: 8eca2df50e58681458ef8a3f8724793d, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 8eca2df50e58681458ef8a3f8724793d, type: 3}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -463,7 +621,7 @@ Camera:
   far clip plane: 5000
   field of view: 10
   orthographic: 1
-  orthographic size: 1.5
+  orthographic size: 1
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -589,7 +747,7 @@ MonoBehaviour:
   m_Follow: {fileID: 393298521}
   m_Lens:
     FieldOfView: 10
-    OrthographicSize: 1.5
+    OrthographicSize: 1
     NearClipPlane: 0.1
     FarClipPlane: 5000
     Dutch: 0
@@ -753,7 +911,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a64578247383140469c45370654a984a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  actor: 
+  actor: Store Owner
   persistentDataName: 
   portrait: {fileID: 0}
   spritePortrait: {fileID: 0}
@@ -792,8 +950,8 @@ MonoBehaviour:
   color: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
   textStyle: 1
   textStyleColor: {r: 0, g: 0, b: 0, a: 1}
-  defaultUseMessage: (spacebar to interact)
-  useKey: 32
+  defaultUseMessage: E) Talk
+  useKey: 101
   useButton: Fire2
   enableTouch: 0
   touchArea:
@@ -834,7 +992,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.0026713088, y: -0.0026713014}
+  m_Offset: {x: -0.0066782758, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -845,12 +1003,17 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.18342628, y: 0.2680837}
+  m_Size: {x: 0.23418124, y: 0.2841115}
   m_EdgeRadius: 0
 --- !u!4 &1260638621 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2537283840721632306, guid: 8eca2df50e58681458ef8a3f8724793d, type: 3}
   m_PrefabInstance: {fileID: 2537283839834647983}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1409953776 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2537283840721632306, guid: 8eca2df50e58681458ef8a3f8724793d, type: 3}
+  m_PrefabInstance: {fileID: 469125265}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1496576202
 GameObject:
@@ -878,7 +1041,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1496576202}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.38556916, y: -0.43, z: 0}
+  m_LocalPosition: {x: -0.73, y: -0.34, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 393277390}
@@ -961,251 +1124,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &1513526733 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2537283840721632307, guid: 8eca2df50e58681458ef8a3f8724793d, type: 3}
-  m_PrefabInstance: {fileID: 2537283839834647983}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1513526734
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1513526733}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5a5473918a168c44fa0294bd4d1399f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  conversationEvents:
-    onConversationStart:
-      m_PersistentCalls:
-        m_Calls: []
-    onConversationEnd:
-      m_PersistentCalls:
-        m_Calls: []
-    runOnConversationEndEventsAtEndOfFrame: 0
-    onConversationCancelled:
-      m_PersistentCalls:
-        m_Calls: []
-    onConversationLine:
-      m_PersistentCalls:
-        m_Calls: []
-    onConversationLineEnd:
-      m_PersistentCalls:
-        m_Calls: []
-    onConversationLineCancelled:
-      m_PersistentCalls:
-        m_Calls: []
-    onConversationResponseMenu:
-      m_PersistentCalls:
-        m_Calls: []
-    onConversationResponseMenuTimeout:
-      m_PersistentCalls:
-        m_Calls: []
-    onLinkedConversationStart:
-      m_PersistentCalls:
-        m_Calls: []
-  barkEvents:
-    onBarkStart:
-      m_PersistentCalls:
-        m_Calls: []
-    onBarkEnd:
-      m_PersistentCalls:
-        m_Calls: []
-    onBarkLine:
-      m_PersistentCalls:
-        m_Calls: []
-  sequenceEvents:
-    onSequenceStart:
-      m_PersistentCalls:
-        m_Calls: []
-    onSequenceEnd:
-      m_PersistentCalls:
-        m_Calls: []
-  questEvents:
-    onQuestStateChange:
-      m_PersistentCalls:
-        m_Calls: []
-    onQuestTrackingEnabled:
-      m_PersistentCalls:
-        m_Calls: []
-    onQuestTrackingDisabled:
-      m_PersistentCalls:
-        m_Calls: []
-    onUpdateQuestTracker:
-      m_PersistentCalls:
-        m_Calls: []
-  pauseEvents:
-    onDialogueSystemPause:
-      m_PersistentCalls:
-        m_Calls: []
-    onDialogueSystemUnpause:
-      m_PersistentCalls:
-        m_Calls: []
---- !u!50 &1513526735
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1513526733}
-  m_BodyType: 1
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
---- !u!58 &1513526736
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1513526733}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 0.11
---- !u!114 &1513526739
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1513526733}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c593457cd8105e148906690e1707c592, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  trigger: 32
-  condition:
-    luaConditions: []
-    questConditions: []
-    acceptedTags: []
-    acceptedGameObjects: []
-    luaWizardIndex: -1
-    lastEvaluationValue: 0
-  setQuestState: 1
-  questName: 
-  questState: 0
-  setQuestEntryState: 0
-  questEntryNumber: 1
-  questEntryState: 0
-  luaCode: 
-  sequence: 
-  sequenceSpeaker: {fileID: 0}
-  sequenceListener: {fileID: 0}
-  waitOneFrameOnStartOrEnable: 1
-  alertMessage: 
-  textTable: {fileID: 0}
-  alertDuration: 0
-  sendMessages: []
-  barkSource: 0
-  barkConversation: 
-  barkText: 
-  barkTextSequence: 
-  barker: {fileID: 0}
-  barkTarget: {fileID: 0}
-  barkOrder: 0
-  allowBarksDuringConversations: 0
-  skipBarkIfNoValidEntries: 0
-  cacheBarkLines: 0
-  conversation: Test Convo
-  conversationConversant: {fileID: 0}
-  conversationActor: {fileID: 0}
-  startConversationEntryID: -1
-  exclusive: 0
-  replace: 0
-  skipIfNoValidEntries: 0
-  stopConversationOnTriggerExit: 0
-  stopConversationIfTooFar: 0
-  maxConversationDistance: 5
-  monitorConversationDistanceFrequency: 1
-  showCursorDuringConversation: 0
-  pauseGameDuringConversation: 0
-  setActiveActions: []
-  setEnabledActions: []
-  setAnimatorStateActions: []
-  onExecute:
-    m_PersistentCalls:
-      m_Calls: []
-  useConversationTitlePicker: 1
-  useBarkTitlePicker: 1
-  useQuestNamePicker: 1
-  selectedDatabase: {fileID: 11400000, guid: 68a11afadc6d7be46b7e7bee91ba2830, type: 2}
---- !u!114 &1513526740
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1513526733}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 274b80ab5b659c646ba9338870d14625, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  overrideName: 
-  overrideUseMessage: 
-  maxUseDistance: 20
-  events:
-    onSelect:
-      m_PersistentCalls:
-        m_Calls: []
-    onDeselect:
-      m_PersistentCalls:
-        m_Calls: []
-    onUse:
-      m_PersistentCalls:
-        m_Calls: []
---- !u!114 &1513526743
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1513526733}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 505dcd4c4aa3a1741ab98b9ad39eb7a5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  once: 0
-  conversation: Barks
-  condition:
-    luaConditions: []
-    questConditions: []
-    acceptedTags: []
-    acceptedGameObjects: []
-    luaWizardIndex: -1
-    lastEvaluationValue: 0
-  skipIfNoValidEntries: 0
-  exclusive: 0
-  conversant: {fileID: 0}
-  useConversationTitlePicker: 1
-  selectedDatabase: {fileID: 0}
-  barkOrder: 0
-  allowDuringConversations: 0
-  cacheBarkLines: 0
-  minSeconds: 5
-  maxSeconds: 10
-  target: {fileID: 0}
 --- !u!1 &1611799524
 GameObject:
   m_ObjectHideFlags: 0
@@ -5637,6 +5555,7 @@ Transform:
   m_Children:
   - {fileID: 393298521}
   - {fileID: 1260638621}
+  - {fileID: 1409953776}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -7100,6 +7019,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1619059541}
     m_Modifications:
+    - target: {fileID: 1001100542677086588, guid: 8eca2df50e58681458ef8a3f8724793d, type: 3}
+      propertyPath: conversant
+      value: 
+      objectReference: {fileID: 1260638621}
+    - target: {fileID: 1001100542677086588, guid: 8eca2df50e58681458ef8a3f8724793d, type: 3}
+      propertyPath: conversation
+      value: NPC Barks
+      objectReference: {fileID: 0}
     - target: {fileID: 2251064720803037034, guid: 8eca2df50e58681458ef8a3f8724793d, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -7126,7 +7053,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2537283840721632306, guid: 8eca2df50e58681458ef8a3f8724793d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.566
+      value: -0.52
       objectReference: {fileID: 0}
     - target: {fileID: 2537283840721632306, guid: 8eca2df50e58681458ef8a3f8724793d, type: 3}
       propertyPath: m_LocalPosition.y
@@ -7175,6 +7102,18 @@ PrefabInstance:
     - target: {fileID: 3436429082889836050, guid: 8eca2df50e58681458ef8a3f8724793d, type: 3}
       propertyPath: m_IsTrigger
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6142897739023842832, guid: 8eca2df50e58681458ef8a3f8724793d, type: 3}
+      propertyPath: conversation
+      value: Soothe the pet!
+      objectReference: {fileID: 0}
+    - target: {fileID: 7616159495474407945, guid: 8eca2df50e58681458ef8a3f8724793d, type: 3}
+      propertyPath: barkUISettings.barkUI
+      value: 
+      objectReference: {fileID: 1417717850875894941, guid: faef14ce798c5374fa83a0b1a6ec438e, type: 3}
+    - target: {fileID: 7616159495474407945, guid: 8eca2df50e58681458ef8a3f8724793d, type: 3}
+      propertyPath: barkUISettings.barkUIOffset.x
+      value: 0.125
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2251064720803037034, guid: 8eca2df50e58681458ef8a3f8724793d, type: 3}
