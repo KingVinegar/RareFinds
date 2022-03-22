@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-
 public class PlayerController : MonoBehaviour
 {
     private BoxCollider2D boxCollider;
@@ -18,6 +17,7 @@ public class PlayerController : MonoBehaviour
 
     private void FixedUpdate()
     {
+        //movement 
         float x = Input.GetAxisRaw("Horizontal");
         float y = Input.GetAxisRaw("Vertical");
 
@@ -43,5 +43,10 @@ public class PlayerController : MonoBehaviour
             //Movement function
             transform.Translate(moveDelta.x * Time.deltaTime, 0, 0);
         }
+
+        //Animation link
+   
+
+
     }
 }
