@@ -2530,6 +2530,67 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 8099740991529671909, guid: 854e0e1f051f52f49a6d9d747790c1b6, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 854e0e1f051f52f49a6d9d747790c1b6, type: 3}
+--- !u!1001 &510572976
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 125852, guid: 58ac37417e60e534f91138088a3e6f70, type: 3}
+      propertyPath: m_Name
+      value: Dialogue Manager
+      objectReference: {fileID: 0}
+    - target: {fileID: 425660, guid: 58ac37417e60e534f91138088a3e6f70, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 425660, guid: 58ac37417e60e534f91138088a3e6f70, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 425660, guid: 58ac37417e60e534f91138088a3e6f70, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 425660, guid: 58ac37417e60e534f91138088a3e6f70, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 425660, guid: 58ac37417e60e534f91138088a3e6f70, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 425660, guid: 58ac37417e60e534f91138088a3e6f70, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 425660, guid: 58ac37417e60e534f91138088a3e6f70, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 425660, guid: 58ac37417e60e534f91138088a3e6f70, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 425660, guid: 58ac37417e60e534f91138088a3e6f70, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 425660, guid: 58ac37417e60e534f91138088a3e6f70, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 425660, guid: 58ac37417e60e534f91138088a3e6f70, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11426072, guid: 58ac37417e60e534f91138088a3e6f70, type: 3}
+      propertyPath: initialDatabase
+      value: 
+      objectReference: {fileID: 11400000, guid: 68a11afadc6d7be46b7e7bee91ba2830, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 58ac37417e60e534f91138088a3e6f70, type: 3}
 --- !u!1 &723714231
 GameObject:
   m_ObjectHideFlags: 0
@@ -3814,6 +3875,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1877724580}
     m_Modifications:
+    - target: {fileID: 98826458996518813, guid: 3e71fd3b0f9ee2e4aa1ac3b4d86406a4, type: 3}
+      propertyPath: m_Size.y
+      value: 2.432281
+      objectReference: {fileID: 0}
+    - target: {fileID: 98826458996518813, guid: 3e71fd3b0f9ee2e4aa1ac3b4d86406a4, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 98826458996518813, guid: 3e71fd3b0f9ee2e4aa1ac3b4d86406a4, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.62895685
+      objectReference: {fileID: 0}
     - target: {fileID: 997971844765107644, guid: 3e71fd3b0f9ee2e4aa1ac3b4d86406a4, type: 3}
       propertyPath: m_Name
       value: Librarian
@@ -3875,6 +3948,10 @@ PrefabInstance:
       value: 1.7613053
       objectReference: {fileID: 0}
     - target: {fileID: 3362366361795000484, guid: 3e71fd3b0f9ee2e4aa1ac3b4d86406a4, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3362366361795000484, guid: 3e71fd3b0f9ee2e4aa1ac3b4d86406a4, type: 3}
       propertyPath: m_Offset.y
       value: -0.9746853
       objectReference: {fileID: 0}
@@ -3888,7 +3965,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8921710977079904159, guid: 3e71fd3b0f9ee2e4aa1ac3b4d86406a4, type: 3}
       propertyPath: trigger
-      value: 16
+      value: 32
       objectReference: {fileID: 0}
     - target: {fileID: 8921710977079904159, guid: 3e71fd3b0f9ee2e4aa1ac3b4d86406a4, type: 3}
       propertyPath: conversation
@@ -3897,7 +3974,7 @@ PrefabInstance:
     - target: {fileID: 8921710977079904159, guid: 3e71fd3b0f9ee2e4aa1ac3b4d86406a4, type: 3}
       propertyPath: conversationActor
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1408894887}
     - target: {fileID: 8921710977079904159, guid: 3e71fd3b0f9ee2e4aa1ac3b4d86406a4, type: 3}
       propertyPath: conversationConversant
       value: 
