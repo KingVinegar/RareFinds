@@ -3554,8 +3554,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 399
-        y: 71
+        x: 396
+        y: 72
         width: 160
         height: 30
     - id: 2
@@ -3611,8 +3611,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 399
-        y: 135
+        x: 396
+        y: 136
         width: 160
         height: 30
     - id: 3
@@ -3668,8 +3668,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 400.0638
-        y: 185
+        x: 397.0638
+        y: 186
         width: 160
         height: 30
     - id: 4
@@ -3723,8 +3723,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 399
-        y: 235
+        x: 396
+        y: 236
         width: 160
         height: 30
     - id: 5
@@ -3837,14 +3837,14 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: Variable["PetColor"] = 0
+      userScript: Variable["PetColor"] = 1
       onExecute:
         m_PersistentCalls:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 720.63965
-        y: 190.2396
+        x: 721.63965
+        y: 300.2396
         width: 160
         height: 30
     - id: 7
@@ -3892,14 +3892,14 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: Variable["PetColor"] = 1
+      userScript: Variable["PetColor"] = 2
       onExecute:
         m_PersistentCalls:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
         x: 720.63965
-        y: 240.2396
+        y: 349.2396
         width: 160
         height: 30
     - id: 10
@@ -3965,7 +3965,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 399
+        x: 398
         y: 358
         width: 160
         height: 30
@@ -4014,7 +4014,7 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: Variable["PetBehavior"] = 0
+      userScript: Variable["PetPersonality"] = 1
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -4069,13 +4069,13 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: Variable["PetBehavior"] = 1
+      userScript: Variable["PetPersonality"] = 2
       onExecute:
         m_PersistentCalls:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 724.3167
+        x: 723.3167
         y: 454.74496
         width: 160
         height: 30
@@ -4124,7 +4124,7 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: Variable["PetBehavior"] = 2
+      userScript: Variable["PetPersonality"] = 3
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -4161,6 +4161,10 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      - title: Response Menu Sequence
         value: 
         type: 0
         typeString: 
@@ -4263,16 +4267,16 @@ MonoBehaviour:
         destinationDialogueID: 23
         isConnector: 0
         priority: 2
-      conditionsString: (Variable["PetColor"] == 0) and (Variable["PetPersonality"]
-        == 0)
+      conditionsString: (Variable["PetColor"] == 1) and (Variable["PetPersonality"]
+        == 1)
       userScript: 
       onExecute:
         m_PersistentCalls:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 1
-        y: 325.01587
+        x: 2
+        y: 324.01587
         width: 160
         height: 30
     - id: 17
@@ -4319,8 +4323,8 @@ MonoBehaviour:
         destinationDialogueID: 23
         isConnector: 0
         priority: 2
-      conditionsString: (Variable["PetColor"] == 0) and (Variable["PetPersonality"]
-        == 1)
+      conditionsString: (Variable["PetColor"] == 1) and (Variable["PetPersonality"]
+        == 2)
       userScript: 
       onExecute:
         m_PersistentCalls:
@@ -4375,15 +4379,15 @@ MonoBehaviour:
         destinationDialogueID: 23
         isConnector: 0
         priority: 2
-      conditionsString: (Variable["PetColor"] == 1) and (Variable["PetPersonality"]
-        == 0)
+      conditionsString: (Variable["PetColor"] == 2) and (Variable["PetPersonality"]
+        == 1)
       userScript: 
       onExecute:
         m_PersistentCalls:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 1
+        x: 2
         y: 533.5853
         width: 160
         height: 30
@@ -4431,8 +4435,8 @@ MonoBehaviour:
         destinationDialogueID: 23
         isConnector: 0
         priority: 2
-      conditionsString: (Variable["PetColor"] == 1) and (Variable["PetPersonality"]
-        == 2)
+      conditionsString: (Variable["PetColor"] == 2) and (Variable["PetPersonality"]
+        == 3)
       userScript: 
       onExecute:
         m_PersistentCalls:
@@ -4440,7 +4444,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 1
-        y: 630.5853
+        y: 631.5853
         width: 160
         height: 30
     - id: 20
@@ -4487,8 +4491,8 @@ MonoBehaviour:
         destinationDialogueID: 23
         isConnector: 0
         priority: 2
-      conditionsString: (Variable["PetColor"] == 1) and (Variable["PetPersonality"]
-        == 1)
+      conditionsString: (Variable["PetColor"] == 2) and (Variable["PetPersonality"]
+        == 2)
       userScript: 
       onExecute:
         m_PersistentCalls:
@@ -4522,7 +4526,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Raijin!
+        value: Gelure!
         type: 0
         typeString: 
       - title: Sequence
@@ -4543,16 +4547,16 @@ MonoBehaviour:
         destinationDialogueID: 23
         isConnector: 0
         priority: 2
-      conditionsString: (Variable["PetColor"] == 0) and (Variable["PetPersonality"]
-        == 2)
+      conditionsString: (Variable["PetColor"] == 1) and (Variable["PetPersonality"]
+        == 3)
       userScript: 
       onExecute:
         m_PersistentCalls:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 1
-        y: 417.58533
+        x: 3
+        y: 415.58533
         width: 160
         height: 30
     - id: 23
@@ -4774,7 +4778,7 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 173.38019}
+    canvasScrollPosition: {x: 0, y: 134}
     canvasZoom: 1
   - id: 9
     fields:
@@ -5330,7 +5334,13 @@ MonoBehaviour:
       delaySimStatus: 0
       falseConditionAction: Block
       conditionPriority: 2
-      outgoingLinks: []
+      outgoingLinks:
+      - originConversationID: 9
+        originDialogueID: 9
+        destinationConversationID: 9
+        destinationDialogueID: 16
+        isConnector: 0
+        priority: 2
       conditionsString: 
       userScript: 
       onExecute:
@@ -5339,7 +5349,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 600
-        y: 127
+        y: 128
         width: 160
         height: 30
     - id: 10
@@ -5381,7 +5391,13 @@ MonoBehaviour:
       delaySimStatus: 0
       falseConditionAction: Block
       conditionPriority: 2
-      outgoingLinks: []
+      outgoingLinks:
+      - originConversationID: 9
+        originDialogueID: 10
+        destinationConversationID: 9
+        destinationDialogueID: 16
+        isConnector: 0
+        priority: 2
       conditionsString: 
       userScript: 
       onExecute:
@@ -5418,8 +5434,8 @@ MonoBehaviour:
       - title: Dialogue Text
         value: 'Gelures are highly intelligent and love to investigate.  A Gelure
           is happiest when it is solving a problem or learning a new trick.  Though
-          not as active as other pets, they need an owner that can keep their minds
-          occupied.  '
+          not as physically active as other pets, they still need an owner that can
+          keep their minds occupied.  '
         type: 0
         typeString: 
       - title: Sequence
@@ -5433,7 +5449,13 @@ MonoBehaviour:
       delaySimStatus: 0
       falseConditionAction: Block
       conditionPriority: 2
-      outgoingLinks: []
+      outgoingLinks:
+      - originConversationID: 9
+        originDialogueID: 11
+        destinationConversationID: 9
+        destinationDialogueID: 16
+        isConnector: 0
+        priority: 2
       conditionsString: 
       userScript: 
       onExecute:
@@ -5468,7 +5490,10 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 'Clothos '
+        value: Always hyper and ready to play, Clothos crave fun and games.  They
+          love meeting people, other animals, or anyone else that is willing to play
+          with them.  Clothos are socially outgoing and need an owner who can give
+          them a lot of attention.
         type: 0
         typeString: 
       - title: Sequence
@@ -5482,7 +5507,13 @@ MonoBehaviour:
       delaySimStatus: 0
       falseConditionAction: Block
       conditionPriority: 2
-      outgoingLinks: []
+      outgoingLinks:
+      - originConversationID: 9
+        originDialogueID: 12
+        destinationConversationID: 9
+        destinationDialogueID: 16
+        isConnector: 0
+        priority: 2
       conditionsString: 
       userScript: 
       onExecute:
@@ -5517,7 +5548,10 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: Kehas are quiet and often keep to themselves.  While they form close
+          bonds with their owners, they don't need a lot of attention or exercise. 
+          You can usuall find Kehas napping in the sun or curled up in a favorite
+          spot.
         type: 0
         typeString: 
       - title: Sequence
@@ -5531,7 +5565,13 @@ MonoBehaviour:
       delaySimStatus: 0
       falseConditionAction: Block
       conditionPriority: 2
-      outgoingLinks: []
+      outgoingLinks:
+      - originConversationID: 9
+        originDialogueID: 13
+        destinationConversationID: 9
+        destinationDialogueID: 16
+        isConnector: 0
+        priority: 2
       conditionsString: 
       userScript: 
       onExecute:
@@ -5540,7 +5580,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 600
-        y: 326
+        y: 327
         width: 160
         height: 30
     - id: 15
@@ -5566,7 +5606,65 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
+        value: 'Yosus tend to be quiet, reclusive, and a bit sneaky.  They enjoy
+          lots of outdoor alone time and may leave for days at a time on secret adventures. 
+          Yosus do best with owners who can give them lots of freedom.  '
+        type: 0
+        typeString: 
+      - title: Sequence
         value: 
+        type: 0
+        typeString: 
+      conversationID: 9
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 9
+        originDialogueID: 15
+        destinationConversationID: 9
+        destinationDialogueID: 16
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 603
+        y: 377
+        width: 160
+        height: 30
+    - id: 16
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 6
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: Interesting...I'll need to keep this information in mind if I'm going
+          to match my pet up with the right owner.
         type: 0
         typeString: 
       - title: Sequence
@@ -5588,8 +5686,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 602
-        y: 377
+        x: 404
+        y: 431
         width: 160
         height: 30
     entryGroups: []
