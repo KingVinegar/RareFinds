@@ -190,7 +190,7 @@ MonoBehaviour:
   - id: 7
     fields:
     - title: Name
-      value: Clothos
+      value: Clotho
       type: 0
       typeString: 
     - title: Pictures
@@ -305,29 +305,21 @@ MonoBehaviour:
       type: 0
       typeString: 
     - title: State
-      value: grantable
+      value: unassigned
       type: 0
       typeString: 
     - title: Is Item
       value: False
       type: 2
       typeString: CustomFieldType_Boolean
-    - title: Entry Count
-      value: 1
-      type: 1
-      typeString: CustomFieldType_Number
-    - title: Entry 1 State
-      value: 
-      type: 0
-      typeString: 
-    - title: Entry 1
-      value: Research
-      type: 0
-      typeString: 
     - title: Display Name
       value: 
       type: 0
       typeString: 
+    - title: Trackable
+      value: True
+      type: 2
+      typeString: CustomFieldType_Boolean
   locations: []
   variables:
   - id: 1
@@ -2170,8 +2162,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 444
-        y: 108.70422
+        x: 445
+        y: 107.70422
         width: 160
         height: 30
     - id: 9
@@ -3460,7 +3452,7 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 36.580994, y: 63.526657}
+    canvasScrollPosition: {x: 39.580994, y: 0}
     canvasZoom: 1
   - id: 8
     fields:
@@ -4504,7 +4496,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 1
-        y: 631.5853
+        y: 632.4118
         width: 160
         height: 30
     - id: 20
@@ -4833,13 +4825,13 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 402.50385
+        x: 403.3734
         y: 641.01587
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 154}
-    canvasZoom: 1
+    canvasScrollPosition: {x: 0.82644653, y: 0}
+    canvasZoom: 1.2099998
   - id: 9
     fields:
     - title: Title
@@ -5640,7 +5632,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 600
-        y: 328
+        y: 327
         width: 160
         height: 30
     - id: 15
@@ -5751,7 +5743,7 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 104, y: 0}
+    canvasScrollPosition: {x: 82, y: 0}
     canvasZoom: 1
   - id: 10
     fields:
@@ -5982,11 +5974,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 1
+        value: 7
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 7
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -6000,6 +5992,10 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      - title: Response Menu Sequence
         value: 
         type: 0
         typeString: 
@@ -6017,7 +6013,7 @@ MonoBehaviour:
         destinationDialogueID: 1
         isConnector: 0
         priority: 2
-      conditionsString: 
+      conditionsString: CurrentQuestState("Research New Pet") == "unassigned"
       userScript: 
       onExecute:
         m_PersistentCalls:
@@ -6122,7 +6118,7 @@ MonoBehaviour:
         destinationDialogueID: 6
         isConnector: 0
         priority: 2
-      conditionsString: CurrentQuestEntryState("Research New Pet", 1) == "success"
+      conditionsString: CurrentQuestState("Research New Pet") == "success"
       userScript: 
       onExecute:
         m_PersistentCalls:
@@ -7258,7 +7254,7 @@ MonoBehaviour:
         destinationDialogueID: 2
         isConnector: 0
         priority: 2
-      conditionsString: 
+      conditionsString: CurrentQuestState("Research New Pet") ~= "success"
       userScript: 
       onExecute:
         m_PersistentCalls:
@@ -7453,8 +7449,9 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: I sure have!  This little thing is called a [em2]Clotho[/em2].  He
-          needs a....
+        value: 'I sure have!  This little thing is called a [em2]Clotho[/em2].  Clothos
+          need to be with an owner that can play with them daily and make sure their
+          minds are occupied with lots of play.  '
         type: 0
         typeString: 
       - title: Sequence
@@ -7532,7 +7529,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 522
-        y: 211
+        y: 210
         width: 160
         height: 30
     entryGroups: []
